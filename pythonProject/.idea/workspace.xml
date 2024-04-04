@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75c447eb-6da9-4637-814e-0efb3c0fb5c3" name="Changes" comment="Correction Version2" />
+    <list default="true" id="75c447eb-6da9-4637-814e-0efb3c0fb5c3" name="Changes" comment="Quiz file edits">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/triviabyte/templates/quiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/triviabyte/templates/quiz.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,7 +171,31 @@
       <option name="project" value="LOCAL" />
       <updated>1712270570425</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Correction Version2">
+      <option name="closed" value="true" />
+      <created>1712270717702</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712270717702</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Quiz file edits">
+      <option name="closed" value="true" />
+      <created>1712270862497</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712270862497</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Quiz file edits">
+      <option name="closed" value="true" />
+      <created>1712270903310</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1712270903310</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +218,7 @@
     <MESSAGE value="Correcting models.py error" />
     <MESSAGE value="Correction Version1" />
     <MESSAGE value="Correction Version2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correction Version2" />
+    <MESSAGE value="Quiz file edits" />
+    <option name="LAST_COMMIT_MESSAGE" value="Quiz file edits" />
   </component>
 </project>
