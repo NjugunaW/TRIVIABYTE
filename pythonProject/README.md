@@ -18,3 +18,4 @@ Back End - Python (Django)
 
 License
 ============================================================================================================
+This application is only for use by the ALX team and the team members of this project
