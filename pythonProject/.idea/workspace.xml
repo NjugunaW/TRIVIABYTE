@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75c447eb-6da9-4637-814e-0efb3c0fb5c3" name="Changes" comment="Updating the py files" />
+    <list default="true" id="75c447eb-6da9-4637-814e-0efb3c0fb5c3" name="Changes" comment="Correction Version2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,7 +144,31 @@
       <option name="project" value="LOCAL" />
       <updated>1712270328562</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Correcting models.py error">
+      <option name="closed" value="true" />
+      <created>1712270430147</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712270430148</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Correction Version1">
+      <option name="closed" value="true" />
+      <created>1712270534689</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712270534689</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Correction Version2">
+      <option name="closed" value="true" />
+      <created>1712270570425</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712270570425</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +188,9 @@
     <MESSAGE value="Updated HTML and CSS files for landing page" />
     <MESSAGE value="Updated README file" />
     <MESSAGE value="Updating the py files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating the py files" />
+    <MESSAGE value="Correcting models.py error" />
+    <MESSAGE value="Correction Version1" />
+    <MESSAGE value="Correction Version2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction Version2" />
   </component>
 </project>
