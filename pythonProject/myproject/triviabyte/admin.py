@@ -4,15 +4,15 @@ from django.contrib import admin
 
 from .models import *
 
-admin.site.register(QuizApp)
-admin.site.register(QuizCategory)
+#admin.site.register(QuizApp)
+#admin.site.register(QuizCategory)
 
-class AnswerAdmin(admin.StackedInline):
-    model = Answer
+#class AnswerAdmin(admin.StackedInline):
+    #model = Answer
 
-class QuestionAdmin(admin.ModelAdmin):
-    inlines = [AnswerAdmin]
+#class QuestionAdmin(admin.ModelAdmin):
+    #inlines = [AnswerAdmin]
 
 
-admin.site.register(Question, QuestionAdmin)
-admin.site.register(Answer)
+#admin.site.register(Question, QuestionAdmin)
+#admin.site.register(Answer)

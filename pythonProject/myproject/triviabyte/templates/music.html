@@ -1,0 +1,146 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Time</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <style>
+        body {
+            background-color: #9D9CEF;
+        }
+
+        #app {
+            flex-direction: column;
+            align-items: left;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="app">
+    <div v-for="(category, index) in questionsData" :key="index">
+        <h2>{{ category.category }}</h2>
+        <div v-for="(question, qIndex) in category.questions" :key="qIndex">
+            <h3 class="question">[[ (qIndex + 1) + '. ' + question.question ]]</h3>
+            <div v-for="(option, oIndex) in question.answers" :key="oIndex">
+                <input type="radio" :value="option" v-model="selectedOptions[category.category + '_' + qIndex]">
+                <label class="answer">[[ option ]]</label>
+            </div>
+        </div>
+    </div>
+    <button @click="submitQuiz" class="btn btn-primary mt-3">Submit</button>
+    <!-- Display the score -->
+    <div v-if="showScore">
+        <h3>Your Score: [[ score ]]</h3>
+        <button @click="startOver" class="btn btn-secondary">Start Over</button>
+        <p>Thank you for playing Trivia Byte!</p>
+    </div>
+</div>
+
+<!-- Include Vue.js -->
+<script src="https://cdn.jsdelivr.net/npm/vue@3.0.0/dist/vue.global.prod.js"></script>
+<script>
+const app = Vue.createApp({
+    el: '#app',
+    delimiters: ['[[', ']]'],
+    data() {
+        return {
+            questionsData: [
+                {
+                    category: 'Music',
+                    questions: [
+                        {
+                            'question': "How many Grammys does Beyoncé have?",
+                            'answers': ['20', '15', '32'],
+                            'correct_answer': '32'
+                        },
+                        {
+                            'question': "Björk was the lead singer with which band?",
+                            'answers': ['Radiohead', 'Portishead', 'The Sugarcubes'],
+                            'correct_answer': 'The Sugarcubes'
+                        },
+                        {
+                            'question': "Fearless, 1989 and Folklore are all albums by which pop artist?",
+                            'answers': ['Adele', 'Lady Gaga', 'Taylor Swift'],
+                            'correct_answer': 'Taylor Swift'
+                        },
+                        {
+                            'question': "Who is the youngest person to headline the Pyramid stage at Glastonbury?",
+                            'answers': ['Lorde', 'Ariana Grande', 'Billie Eilish'],
+                            'correct_answer': 'Billie Eilish'
+                        },
+                        {
+                            'question': "What year did Blur release their third studio album Parklife?",
+                            'answers': ['1997', '1992', '1994'],
+                            'correct_answer': '1994'
+                        },
+                        {
+                            'question': "Which song has the lyrics: 'certified freak, seven days a week'? Extra point for the artist names.",
+                            'answers': ['Savage - Megan Thee Stallion', 'Say So - Doja Cat',
+                                        'WAP - Cardi B and Megan Thee Stallion'],
+                            'correct_answer': 'WAP - Cardi B and Megan Thee Stallion'
+                        },
+                        {
+                            'question': "Which iconic rock band are Stevie Nicks and Lindsay Buckingham part of?",
+                            'answers': ['Led Zeppelin', 'The Rolling Stones', 'Fleetwood Mac'],
+                            'correct_answer': 'Fleetwood Mac'
+                        },
+                        {
+                            'question': "Which song from the Barbie movie has the most streams to date?",
+                            'answers': ['Barbie Girl - Aqua', 'Girls Just Want to Have Fun - Cyndi Lauper',
+                                        'Dance the Night - Dua Lipa'],
+                            'correct_answer': 'Dance the Night - Dua Lipa'
+                        },
+                        {
+                            'question': "What Irish singer and women's rights activist passed away on 26 July in 2023?",
+                            'answers': ['Dolores O\'Riordan', 'Enya', 'Sinéad O\'Connor'],
+                            'correct_answer': 'Sinéad O\'Connor'
+                        },
+                        {
+                            'question': "What year was Running Up That Hill by Kate Bush released?",
+                            'answers': ['1980', '1990', '1985'],
+                            'correct_answer': '1985'
+                        }
+
+                    ]
+                }
+            ],
+            selectedOptions: {},
+            score: 0,
+            showScore: false
+        };
+    },
+    methods: {
+        submitQuiz() {
+            this.score = 0; // Reset score before calculating
+            // Calculate the score
+            this.questionsData.forEach((category) => {
+                category.questions.forEach((question, qIndex) => {
+                    const selectedOption = this.selectedOptions[category.category + '_' + qIndex];
+                    if (selectedOption === question.correct_answer) {
+                        this.score++;
+                    }
+                });
+            });
+            // Display the score
+            this.showScore = true;
+        },
+        startOver() {
+            // Reset selectedOptions, score, and showScore
+            this.selectedOptions = {};
+            this.score = 0;
+            this.showScore = false;
+        }
+    }
+});
+
+app.mount('#app');
+</script>
+
+</body>
+</html>

@@ -5,10 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trivia Byte</title>
-    <link rel="stylesheet" href="{% static 'static/css/styles.css' %}">
-    <script src="{% static 'js/category.js' %}"></script>
-
-    <!-- CSS for header background image -->
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+        <!-- CSS for header background image -->
     <style>
         header {
             background-image: url("{% static 'images/background.jpg' %}");
@@ -42,38 +40,23 @@
         <div class="container mt-5 pt-5">
             <div class="row justify-content-center">
                 <div class="col-md-6">
-                    <form action="{% url 'get_questions' %}" method="GET">
+                    <form id="quizForm" action="{% url 'get_quiz' %}" method="post">
+                        {% csrf_token %}
                         <div class="form-group">
                             <select name="category" class="form-control">
                                 <option value="">Pick A Category</option>
                                 {% for category in categories %}
-                                    <option value="{{ category.name }}">{{ category.name }}</option>
+                                    <option value="{{ category }}">{{ category }}</option>
                                 {% endfor %}
                             </select>
                         </div>
-                        <button type="submit" class="btn btn-danger mt-3">Submit</button>
+                        <button type="submit" class="btn btn-danger mt-3">Enter</button>
                     </form>
                 </div>
             </div>
         </div>
     </section>
 </header>
-
-<!-- Category selection form -->
-<div id="question-form">
-    <form id="category-form">
-        <!-- Your category selection form -->
-    </form>
-</div>
-
-<!-- Questions container -->
-<div id="questions-container" style="display: none;">
-    <!-- Questions will be displayed here -->
-</div>
-
-<!-- Next and Submit buttons -->
-<button id="next-button" style="display: none;">Next</button>
-<button id="submit-button" style="display: none;">Submit</button>
 
 <!-- Content section 1-->
 <section class="bg-general-knowledge">
@@ -133,13 +116,32 @@
         <p class="m-0 text-center text-white small">Copyright &copy; Trivia Byte 2024</p>
     </div>
 </footer>
+<script src="{% static 'js/quiz.js' %}"></script>
 
-<!-- Bootstrap core JS-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/scripts.js"></script>
-<script src="js/script.js"></script>
-<script src="js/questions.js"></script>
+<script>
+    document.getElementById('quizForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent default form submission
 
-<a href="quiz.html">Play</a>
+        // Get the selected category value
+        var category = document.querySelector('select[name="category"]').value;
+
+        // Redirect based on the selected category
+        switch (category) {
+            case 'General Knowledge':
+                window.location.href = 'quiz.html';
+                break;
+            case 'Science':
+                window.location.href = 'science.html';
+                break;
+            case 'Music':
+                window.location.href = 'music.html';
+                break;
+            default:
+                alert('Please select a category!');
+        }
+    });
+</script>
+
 </body>
 </html>
+

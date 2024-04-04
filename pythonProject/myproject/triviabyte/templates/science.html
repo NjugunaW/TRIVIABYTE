@@ -1,0 +1,144 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Time</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <style>
+        body {
+            background-color: #9D9CEF;
+        }
+
+        #app {
+            flex-direction: column;
+            align-items: left;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="app">
+    <div v-for="(category, index) in questionsData" :key="index">
+        <h2>{{ category.category }}</h2>
+        <div v-for="(question, qIndex) in category.questions" :key="qIndex">
+            <h3 class="question">[[ (qIndex + 1) + '. ' + question.question ]]</h3>
+            <div v-for="(option, oIndex) in question.answers" :key="oIndex">
+                <input type="radio" :value="option" v-model="selectedOptions[category.category + '_' + qIndex]">
+                <label class="answer">[[ option ]]</label>
+            </div>
+        </div>
+    </div>
+    <button @click="submitQuiz" class="btn btn-primary mt-3">Submit</button>
+    <!-- Display the score -->
+    <div v-if="showScore">
+        <h3>Your Score: [[ score ]]</h3>
+        <button @click="startOver" class="btn btn-secondary">Start Over</button>
+        <p>Thank you for playing Trivia Byte!</p>
+    </div>
+</div>
+
+<!-- Include Vue.js -->
+<script src="https://cdn.jsdelivr.net/npm/vue@3.0.0/dist/vue.global.prod.js"></script>
+<script>
+const app = Vue.createApp({
+    el: '#app',
+    delimiters: ['[[', ']]'],
+    data() {
+        return {
+            questionsData: [
+                {
+                    category: 'Science',
+                    questions: [
+                        {
+                            'question': "Typically, what's the strongest muscle in the human body?",
+                            'answers': ['The biceps', 'The gluteus maximus', 'The masseter - the main jaw muscle'],
+                            'correct_answer': 'The masseter - the main jaw muscle'
+                            },
+                            {
+                            'question': "What does He stand for on the periodic table?",
+                            'answers': ['Hydrogen', 'Hassium', 'Helium'],
+                            'correct_answer': 'Helium'
+                            },
+                            {
+                            'question': "What is the Papaver Rhoeas flower better known as?",
+                            'answers': ['A daisy', 'A rose', 'A poppy'],
+                            'correct_answer': 'A poppy'
+                            },
+                            {
+                            'question': "How many elements are there in the periodic table?",
+                            'answers': ['92 elements', '150 elements', '118 elements'],
+                            'correct_answer': '118 elements'
+                            },
+                            {
+                            'question': "How many sides does a heptadecagon have?",
+                            'answers': ['7', '14', '17'],
+                            'correct_answer': '17'
+                            },
+                            {
+                            'question': "How many bones does a shark have?",
+                            'answers': ['Over 200', 'About 100', 'None'],
+                            'correct_answer': 'None'
+                            },
+                            {
+                            'question': "What does the AC button on a calculator stand for?",
+                            'answers': ['Addition and subtraction', 'All clear', 'Automatic calculation'],
+                            'correct_answer': 'All clear'
+                            },
+                            {
+                            'question': "What is the name for a donkey crossed with a zebra?",
+                            'answers': ['A zorse', 'A zonkey', 'A zeedonk'],
+                            'correct_answer': 'A zeedonk'
+                            },
+                            {
+                            'question': "What does a Geiger Counter measure?",
+                            'answers': ['Temperature', 'Humidity', 'Radiation'],
+                            'correct_answer': 'Radiation'
+                            },
+                            {
+                            'question': "What is the largest organ in the human body?",
+                            'answers': ['The brain', 'The liver', 'The skin'],
+                            'correct_answer': 'The skin'
+                            }
+
+                    ]
+                }
+            ],
+            selectedOptions: {},
+            score: 0,
+            showScore: false
+        };
+    },
+    methods: {
+        submitQuiz() {
+            this.score = 0; // Reset score before calculating
+            // Calculate the score
+            this.questionsData.forEach((category) => {
+                category.questions.forEach((question, qIndex) => {
+                    const selectedOption = this.selectedOptions[category.category + '_' + qIndex];
+                    if (selectedOption === question.correct_answer) {
+                        this.score++;
+                    }
+                });
+            });
+            // Display the score
+            this.showScore = true;
+        },
+        startOver() {
+            // Reset selectedOptions, score, and showScore
+            this.selectedOptions = {};
+            this.score = 0;
+            this.showScore = false;
+        }
+    }
+});
+
+app.mount('#app');
+</script>
+
+</body>
+</html>

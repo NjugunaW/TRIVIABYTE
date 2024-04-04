@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75c447eb-6da9-4637-814e-0efb3c0fb5c3" name="Changes" comment="Initial Commit: Project set up and structure">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@fastify/busboy/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@fastify/busboy/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@fastify/busboy/deps/dicer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@fastify/busboy/deps/dicer/lib/Dicer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@fastify/busboy/deps/dicer/lib/HeaderParser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@fastify/busboy/deps/dicer/lib/PartStream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@fastify/busboy/deps/dicer/lib/dicer.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@fastify/busboy/deps/streamsearch/sbmh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@fastify/busboy/lib/main.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@fastify/busboy/lib/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@fastify/busboy/lib/types/multipart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@fastify/busboy/lib/types/urlencoded.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@fastify/busboy/lib/utils/Decoder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@fastify/busboy/lib/utils/basename.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@fastify/busboy/lib/utils/decodeText.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@fastify/busboy/lib/utils/getLimit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@fastify/busboy/lib/utils/parseParams.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@fastify/busboy/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/analytics-types/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/analytics-types/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/analytics-types/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-check-types/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-check-types/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-check-types/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/app-compat-public.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/app-compat.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/esm/index.esm2017.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/esm/index.esm2017.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/esm/index.esm5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/esm/index.esm5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/esm/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/esm/src/errors.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/esm/src/firebaseApp.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/esm/src/firebaseNamespace.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/esm/src/firebaseNamespaceCore.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/esm/src/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/esm/src/index.lite.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/esm/src/lite/firebaseAppLite.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/esm/src/lite/firebaseNamespaceLite.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/esm/src/logger.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/esm/src/public-types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/esm/src/registerCoreComponents.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/esm/src/types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/esm/test/firebaseAppCompat.test.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/esm/test/setup.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/esm/test/util.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/index.cjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/index.cjs.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/index.lite.esm5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/index.lite.esm5.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/index.lite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/index.lite.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/src/errors.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/src/firebaseApp.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/src/firebaseNamespace.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/src/firebaseNamespaceCore.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/src/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/src/index.lite.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/src/lite/firebaseAppLite.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/src/lite/firebaseNamespaceLite.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/src/logger.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/src/public-types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/src/registerCoreComponents.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/src/tsdoc-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/src/types.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/test/firebaseAppCompat.test.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/test/setup.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/dist/test/util.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/app-compat/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/functions-types/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/functions-types/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/functions-types/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/installations-types/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/installations-types/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/storage-types/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/storage-types/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/storage-types/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/storage/dist/index.browser.cjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/storage/dist/index.browser.cjs.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/storage/dist/index.cjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/storage/dist/index.cjs.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/storage/dist/index.esm2017.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/storage/dist/index.esm5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/storage/dist/index.node.cjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/storage/dist/node-esm/index.node.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/storage/dist/node-esm/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/storage/dist/src/tsdoc-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/storage/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/webchannel-wrapper/dist/esm/index.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/webchannel-wrapper/dist/esm/index.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/webchannel-wrapper/dist/esm/index.esm2017.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/webchannel-wrapper/dist/esm/index.esm2017.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/webchannel-wrapper/dist/esm/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/webchannel-wrapper/dist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@firebase/webchannel-wrapper/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/aspromise/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/aspromise/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/aspromise/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/aspromise/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/aspromise/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/aspromise/tests/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/base64/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/base64/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/base64/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/base64/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/base64/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/base64/tests/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/codegen/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/codegen/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/codegen/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/codegen/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/codegen/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/codegen/tests/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/eventemitter/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/eventemitter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/eventemitter/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/eventemitter/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/eventemitter/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/eventemitter/tests/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/fetch/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/fetch/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/fetch/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/fetch/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/fetch/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/fetch/tests/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/float/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/float/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/float/bench/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/float/bench/suite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/float/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/float/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/float/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/float/tests/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/inquire/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/inquire/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/inquire/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/inquire/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/inquire/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/inquire/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/inquire/tests/data/array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/inquire/tests/data/emptyArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/inquire/tests/data/emptyObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/inquire/tests/data/object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/inquire/tests/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/path/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/path/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/path/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/path/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/path/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/path/tests/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/pool/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/pool/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/pool/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/pool/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/pool/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/pool/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/pool/tests/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/utf8/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/utf8/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/utf8/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/utf8/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/utf8/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/utf8/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/utf8/tests/data/utf8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/@protobufjs/utf8/tests/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/ansi-regex/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/ansi-regex/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/ansi-regex/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/ansi-regex/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/ansi-regex/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/ansi-styles/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/ansi-styles/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/ansi-styles/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/ansi-styles/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/ansi-styles/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/cliui/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/cliui/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/cliui/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/cliui/build/index.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/cliui/build/index.d.cts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/cliui/build/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/cliui/build/lib/string-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/cliui/index.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/cliui/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/color-convert/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/color-convert/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/color-convert/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/color-convert/conversions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/color-convert/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/color-convert/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/color-convert/route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/color-name/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/color-name/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/color-name/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/color-name/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/emoji-regex/LICENSE-MIT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/emoji-regex/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/emoji-regex/es2015/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/emoji-regex/es2015/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/emoji-regex/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/emoji-regex/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/emoji-regex/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/emoji-regex/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/escalade/dist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/escalade/dist/index.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/escalade/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/escalade/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/escalade/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/escalade/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/escalade/sync/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/escalade/sync/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/escalade/sync/index.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/faye-websocket/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/faye-websocket/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/faye-websocket/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/faye-websocket/lib/faye/eventsource.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/faye-websocket/lib/faye/websocket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/faye-websocket/lib/faye/websocket/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/faye-websocket/lib/faye/websocket/api/event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/faye-websocket/lib/faye/websocket/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/faye-websocket/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/firebase/compat/dist/index.node.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/firebase/firebase-analytics-compat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/firebase/firebase-analytics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/firebase/firebase-app-check-compat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/firebase/firebase-app-check.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/firebase/firebase-app-compat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/firebase/firebase-app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/firebase/firebase-auth-compat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/firebase/firebase-auth-cordova.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/firebase/firebase-auth-web-extension.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/firebase/firebase-auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/firebase/firebase-compat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/firebase/firebase-database-compat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/firebase/firebase-database.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/get-caller-file/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/get-caller-file/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/get-caller-file/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/get-caller-file/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/get-caller-file/index.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/get-caller-file/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/http-parser-js/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/http-parser-js/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/http-parser-js/http-parser.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/http-parser-js/http-parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/http-parser-js/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/idb/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/idb/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/idb/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/idb/build/async-iterators.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/idb/build/async-iterators.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/idb/build/async-iterators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/idb/build/database-extras.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/idb/build/entry.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/idb/build/index.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/idb/build/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/idb/build/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/idb/build/umd-with-async-ittr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/idb/build/umd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/idb/build/util.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/idb/build/wrap-idb-value.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/idb/build/wrap-idb-value.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/idb/build/wrap-idb-value.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/idb/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/idb/with-async-ittr.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/idb/with-async-ittr.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/idb/with-async-ittr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/is-fullwidth-code-point/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/is-fullwidth-code-point/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/is-fullwidth-code-point/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/is-fullwidth-code-point/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/is-fullwidth-code-point/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/lodash.camelcase/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/lodash.camelcase/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/lodash.camelcase/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/lodash.camelcase/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/long/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/long/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/long/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/long/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/long/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/long/umd/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/long/umd/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/long/umd/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/require-directory/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/require-directory/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/require-directory/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/require-directory/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/require-directory/README.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/require-directory/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/require-directory/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/safe-buffer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/safe-buffer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/safe-buffer/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/safe-buffer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/safe-buffer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/string-width/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/string-width/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/string-width/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/string-width/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/string-width/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/strip-ansi/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/strip-ansi/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/strip-ansi/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/strip-ansi/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/strip-ansi/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/tslib/CopyrightNotice.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/tslib/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/tslib/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/tslib/SECURITY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/tslib/modules/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/tslib/modules/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/tslib/modules/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/tslib/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/tslib/tslib.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/tslib/tslib.es6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/tslib/tslib.es6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/tslib/tslib.es6.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/tslib/tslib.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/tslib/tslib.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/agent.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/api.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/balanced-pool.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/cache.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/client.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/connector.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/content-type.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/cookies.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/diagnostics-channel.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/dispatcher.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/errors.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/fetch.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/file.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/filereader.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/formdata.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/global-dispatcher.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/global-origin.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/handlers.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/header.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/interceptors.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/mock-agent.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/mock-client.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/mock-errors.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/mock-interceptor.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/mock-pool.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/patch.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/pool-stats.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/pool.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/proxy-agent.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/readable.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/webidl.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/undici-types/websocket.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-driver/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-driver/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-driver/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-driver/lib/websocket/driver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-driver/lib/websocket/driver/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-driver/lib/websocket/driver/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-driver/lib/websocket/driver/draft75.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-driver/lib/websocket/driver/draft76.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-driver/lib/websocket/driver/headers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-driver/lib/websocket/driver/hybi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-driver/lib/websocket/driver/hybi/frame.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-driver/lib/websocket/driver/hybi/message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-driver/lib/websocket/driver/proxy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-driver/lib/websocket/driver/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-driver/lib/websocket/driver/stream_reader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-driver/lib/websocket/http_parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-driver/lib/websocket/streams.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-driver/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-extensions/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-extensions/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-extensions/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-extensions/lib/parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-extensions/lib/pipeline/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-extensions/lib/pipeline/cell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-extensions/lib/pipeline/functor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-extensions/lib/pipeline/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-extensions/lib/pipeline/pledge.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-extensions/lib/pipeline/ring_buffer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-extensions/lib/websocket_extensions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/websocket-extensions/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/wrap-ansi/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/wrap-ansi/license" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/wrap-ansi/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/wrap-ansi/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/y18n/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/y18n/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/y18n/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/y18n/build/index.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/y18n/build/lib/cjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/y18n/build/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/y18n/build/lib/platform-shims/node.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/y18n/index.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/y18n/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs-parser/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs-parser/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs-parser/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs-parser/browser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs-parser/build/index.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs-parser/build/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs-parser/build/lib/string-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs-parser/build/lib/tokenize-arg-string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs-parser/build/lib/yargs-parser-types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs-parser/build/lib/yargs-parser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs-parser/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/browser.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/browser.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/build/index.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/build/lib/argsert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/build/lib/command.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/build/lib/completion-templates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/build/lib/completion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/build/lib/middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/build/lib/parse-command.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/build/lib/typings/common-types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/build/lib/typings/yargs-parser-types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/build/lib/usage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/build/lib/utils/apply-extends.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/build/lib/utils/is-promise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/build/lib/utils/levenshtein.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/build/lib/utils/maybe-async-result.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/build/lib/utils/obj-filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/build/lib/utils/process-argv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/build/lib/utils/set-blocking.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/build/lib/utils/which-module.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/build/lib/validation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/build/lib/yargs-factory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/build/lib/yerror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/helpers/helpers.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/helpers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/helpers/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/index.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/index.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/lib/platform-shims/browser.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/lib/platform-shims/esm.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/be.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/cs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/de.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/es.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/fi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/fr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/hi.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/hu.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/id.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/it.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/ja.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/ko.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/nb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/nl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/nn.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/pirate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/pl.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/pt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/pt_BR.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/ru.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/th.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/tr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/uk_UA.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/uz.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/zh_CN.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/locales/zh_TW.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/yargs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/node_modules/yargs/yargs.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/triviabyte/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/triviabyte/migrations/0002_score.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/triviabyte/migrations/0003_remove_answer_question_remove_question_category_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/triviabyte/migrations/0004_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/triviabyte/migrations/0005_category_remove_question_answer_choices_answer_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/triviabyte/questions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/triviabyte/static/images/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/triviabyte/static/images/general knowledge.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/triviabyte/static/images/general knowledge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/triviabyte/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/triviabyte/static/images/music.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/triviabyte/static/images/music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/triviabyte/static/images/science.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/triviabyte/static/images/science.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/triviabyte/templates/music.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myproject/triviabyte/templates/quiz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/myproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/myproject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/triviabyte/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/triviabyte/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/triviabyte/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/triviabyte/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/triviabyte/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/triviabyte/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/triviabyte/static/js/questions.js" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/triviabyte/static/js/quiz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/triviabyte/static/js/quiz.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/triviabyte/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/triviabyte/static/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/triviabyte/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/triviabyte/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/triviabyte/templates/play.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/triviabyte/templates/science.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/triviabyte/templates/questions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/triviabyte/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/triviabyte/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/triviabyte/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/triviabyte/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2eKgMB4eDC2Hw2pJzgMufPzOuGq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.Django.executor": "Run",
+    "Python.views.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Richard Campbell/Desktop/Practice/Wangui Of Njuguna- baby!/ALX Projects/old Pjs/TriviaByte_old",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Richard Campbell\Desktop\Practice\Wangui Of Njuguna- baby!\ALX Projects\TRIVIABYTE\pythonProject\myproject\triviabyte\templates" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Django" type="PythonConfigurationType" factoryName="Python">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (pythonProject)" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myproject/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75c447eb-6da9-4637-814e-0efb3c0fb5c3" name="Changes" comment="" />
+      <created>1711658634335</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711658634335</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit: Project set up and structure">
+      <option name="closed" value="true" />
+      <created>1711664528947</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711664528947</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial Commit: Project set up and structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit: Project set up and structure" />
+  </component>
+</project>

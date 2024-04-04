@@ -1,0 +1,144 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Time</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <style>
+        body {
+            background-color: #9D9CEF;
+        }
+
+        #app {
+            flex-direction: column;
+            align-items: left;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="app">
+    <div v-for="(category, index) in questionsData" :key="index">
+        <h2>{{ category.category }}</h2>
+        <div v-for="(question, qIndex) in category.questions" :key="qIndex">
+            <h3 class="question">[[ (qIndex + 1) + '. ' + question.question ]]</h3>
+            <div v-for="(option, oIndex) in question.answers" :key="oIndex">
+                <input type="radio" :value="option" v-model="selectedOptions[category.category + '_' + qIndex]">
+                <label class="answer">[[ option ]]</label>
+            </div>
+        </div>
+    </div>
+    <button @click="submitQuiz" class="btn btn-primary mt-3">Submit</button>
+    <!-- Display the score -->
+    <div v-if="showScore">
+        <h3>Your Score: [[ score ]]</h3>
+        <button @click="startOver" class="btn btn-secondary">Start Over</button>
+        <p>Thank you for playing Trivia Byte!</p>
+    </div>
+</div>
+
+<!-- Include Vue.js -->
+<script src="https://cdn.jsdelivr.net/npm/vue@3.0.0/dist/vue.global.prod.js"></script>
+<script>
+const app = Vue.createApp({
+    el: '#app',
+    delimiters: ['[[', ']]'],
+    data() {
+        return {
+            questionsData: [
+                {
+                    category: 'General Knowledge',
+                    questions: [
+                        {
+                            'question': 'Which five colours make up the Olympic rings?',
+                            'answers': ['Red, blue, yellow, green and purple', 'Black, white, yellow, green and red', 'Black, green, blue, yellow and red'],
+                            'correct_answer': 'Black, green, blue, yellow and red'
+                        },
+                        {
+                            'question': "What's the biggest animal in the world?",
+                            'answers': ['The elephant', 'The giraffe', 'The blue whale'],
+                            'correct_answer': 'The blue whale'
+                        },
+                        {
+                            'question': "Which country is brie cheese originally from?",
+                            'answers': ['Italy', 'Switzerland', 'France'],
+                            'correct_answer': 'France'
+                        },
+                        {
+                            'question': "What does Hakuna Matata mean?",
+                            'answers': ['Good morning', 'Thank you', 'No worries'],
+                            'correct_answer': 'No worries'
+                        },
+                        {
+                            'question': "Who painted the Mona Lisa?",
+                            'answers': ['Pablo Picasso', 'Vincent van Gogh', 'Leonardo da Vinci'],
+                            'correct_answer': 'Leonardo da Vinci'
+                        },
+                        {
+                            'question': "Which planet is closest to the sun?",
+                            'answers': ['Venus', 'Mars', 'Mercury'],
+                            'correct_answer': 'Mercury'
+                        },
+                        {
+                            'question': "What is the largest country in the world?",
+                            'answers': ['Canada', 'China', 'Russia'],
+                            'correct_answer': 'Russia'
+                        },
+                        {
+                            'question': "Which fashion designer reportedly had a relationship with Winston Churchill?",
+                            'answers': ['Gianni Versace', 'Ralph Lauren', 'Coco Chanel'],
+                            'correct_answer': 'Coco Chanel'
+                        },
+                        {
+                            'question': "How many valves does the heart have?",
+                            'answers': ['Two', 'Six', 'Four'],
+                            'correct_answer': 'Four'
+                        },
+                        {
+                            'question': "In Harry Potter, what is the name of The Weasley's house?",
+                            'answers': ['Hogwarts', 'Gringotts', 'The Burrow'],
+                            'correct_answer': 'The Burrow'
+                        }
+
+                    ]
+                }
+            ],
+            selectedOptions: {},
+            score: 0,
+            showScore: false
+        };
+    },
+    methods: {
+        submitQuiz() {
+            this.score = 0; // Reset score before calculating
+            // Calculate the score
+            this.questionsData.forEach((category) => {
+                category.questions.forEach((question, qIndex) => {
+                    const selectedOption = this.selectedOptions[category.category + '_' + qIndex];
+                    if (selectedOption === question.correct_answer) {
+                        this.score++;
+                    }
+                });
+            });
+            // Display the score
+            this.showScore = true;
+        },
+        startOver() {
+            // Reset selectedOptions, score, and showScore
+            this.selectedOptions = {};
+            this.score = 0;
+            this.showScore = false;
+        }
+    }
+});
+
+app.mount('#app');
+</script>
+
+</body>
+</html>

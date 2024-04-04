@@ -11,9 +11,9 @@
 }
 
 .navbar img {
-    width: 100px;
-    height: 60px;
-    margin-top: 10px;
+    width: 120px;
+    height: 80px;
+    margin-top: -15px;
     margin-left: 10px;
 }
 
@@ -122,8 +122,8 @@ section h2 {
     font-size: 2rem;
     color: black;
     position: absolute;
-    top: 92%;
-    left: 50%;
+    top: 105%;
+    left: 55%;
     transform: translate(-50%, -50%);
     margin: 0;
     font-family: Cardo;
@@ -133,7 +133,7 @@ section h2 {
     font-size: 2rem;
     color: black;
     position: absolute;
-    top: 165%;
+    top: 180%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
@@ -144,7 +144,7 @@ section h2 {
     font-size: 2rem;
     color: black;
     position: absolute;
-    top: 235%;
+    top: 260%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
@@ -200,6 +200,22 @@ section h2 {
 footer {
     background: linear-gradient(to right, #fcc2d7, #a7a2fc);
     text-align: center;
-    padding: 30px 0;
+    padding: 20px 0;
     color: black;
 }
+
+
+.question {
+    color: black;
+}
+
+.answer {
+    color: purple;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
