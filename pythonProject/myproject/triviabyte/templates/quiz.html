@@ -22,25 +22,7 @@
 </head>
 <body>
 
-<div id="app">
-    <div v-for="(category, index) in questionsData" :key="index">
-        <h2>{{ category.category }}</h2>
-        <div v-for="(question, qIndex) in category.questions" :key="qIndex">
-            <h3 class="question">[[ (qIndex + 1) + '. ' + question.question ]]</h3>
-            <div v-for="(option, oIndex) in question.answers" :key="oIndex">
-                <input type="radio" :value="option" v-model="selectedOptions[category.category + '_' + qIndex]">
-                <label class="answer">[[ option ]]</label>
-            </div>
-        </div>
-    </div>
-    <button @click="submitQuiz" class="btn btn-primary mt-3">Submit</button>
-    <!-- Display the score -->
-    <div v-if="showScore">
-        <h3>Your Score: [[ score ]]</h3>
-        <button @click="startOver" class="btn btn-secondary">Start Over</button>
-        <p>Thank you for playing Trivia Byte!</p>
-    </div>
-</div>
+
 
 <!-- Include Vue.js -->
 <script src="https://cdn.jsdelivr.net/npm/vue@3.0.0/dist/vue.global.prod.js"></script>
