@@ -41,7 +41,8 @@
             <div class="row justify-content-center">
                 <div class="col-md-6">
                     <form id="quizForm" action="{% url 'get_quiz' %}" method="post">
-                        {% csrf_token %} #A CSRF token hidden input field in the form to prevent CSRF attacks.
+                        <!-- A CSRF token hidden input field in the form to prevent CSRF attacks -->
+                        {% csrf_token %}
                         <div class="form-group">
                             <!-- A dropdown menu for selecting a category -->
                             <select name="category" class="form-control">

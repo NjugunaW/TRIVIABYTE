@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75c447eb-6da9-4637-814e-0efb3c0fb5c3" name="Changes" comment="HTML file updates">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/triviabyte/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/triviabyte/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/triviabyte/static/js/quiz.js" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/triviabyte/static/js/quiz.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/triviabyte/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/triviabyte/static/js/script.js" afterDir="false" />
+    <list default="true" id="75c447eb-6da9-4637-814e-0efb3c0fb5c3" name="Changes" comment="Final Corrections of the Completed Project">
       <change beforePath="$PROJECT_DIR$/myproject/triviabyte/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/triviabyte/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/triviabyte/templates/music.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/triviabyte/templates/music.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/triviabyte/templates/quiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/triviabyte/templates/quiz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/triviabyte/templates/science.html" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/triviabyte/templates/science.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/triviabyte/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/triviabyte/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myproject/triviabyte/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/triviabyte/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712272035693</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Final Corrections of the Completed Project">
+      <option name="closed" value="true" />
+      <created>1712295624363</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1712295624363</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,6 +235,7 @@
     <MESSAGE value="Correction Version2" />
     <MESSAGE value="Quiz file edits" />
     <MESSAGE value="HTML file updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="HTML file updates" />
+    <MESSAGE value="Final Corrections of the Completed Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Corrections of the Completed Project" />
   </component>
 </project>
