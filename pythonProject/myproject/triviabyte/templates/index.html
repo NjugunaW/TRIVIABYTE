@@ -41,15 +41,18 @@
             <div class="row justify-content-center">
                 <div class="col-md-6">
                     <form id="quizForm" action="{% url 'get_quiz' %}" method="post">
-                        {% csrf_token %}
+                        {% csrf_token %} #A CSRF token hidden input field in the form to prevent CSRF attacks.
                         <div class="form-group">
+                            <!-- A dropdown menu for selecting a category -->
                             <select name="category" class="form-control">
                                 <option value="">Pick A Category</option>
+                                <!-- Iterates over the categories and generates an option element for each category -->
                                 {% for category in categories %}
                                     <option value="{{ category }}">{{ category }}</option>
                                 {% endfor %}
                             </select>
                         </div>
+                        <!-- Defines a submit button for the form -->
                         <button type="submit" class="btn btn-danger mt-3">Enter</button>
                     </form>
                 </div>
@@ -119,13 +122,14 @@
 <script src="{% static 'js/quiz.js' %}"></script>
 
 <script>
+    // Adds an event listener to the form with the ID 'quizForm'
     document.getElementById('quizForm').addEventListener('submit', function(event) {
-        event.preventDefault(); // Prevent default form submission
+        event.preventDefault(); // Prevents default form submission
 
-        // Get the selected category value
+        // Gets the selected category value
         var category = document.querySelector('select[name="category"]').value;
 
-        // Redirect based on the selected category
+        // Redirects based on the selected category
         switch (category) {
             case 'General Knowledge':
                 window.location.href = 'quiz.html';

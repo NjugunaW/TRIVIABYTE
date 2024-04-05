@@ -1,4 +1,4 @@
-methods: {
+/*methods: {
     getQuestions() {
         var _this = this
         fetch(`/api/get-quiz/?gfg=${this.gfg}`)
